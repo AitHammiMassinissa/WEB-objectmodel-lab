@@ -1,0 +1,26 @@
+{
+  "name": "object-model-lab",
+  "version": "1.0.0",
+  "description": "Object Model Lab of the 'WEB-IHM' lecture for the iWOCS Master degree",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "pretest": "eslint src",
+    "ci": "jest --ci --coverage --color=false",
+    "preci": "eslint --no-color src"
+  },
+  "keywords": [],
+  "author": " Yoann Pigné",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.7.0",
+    "jest": "^27.4.7",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {}
+}
